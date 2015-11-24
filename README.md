@@ -16,3 +16,4 @@ steps that I followed to convert them to .mp4.
 # Notes
 * Mileage may vary, ffmpeg command is a bit tricky. If it encounters an existing version, it should prompt for overwrite.
 * I was too lazy to support removal of both .MOD and .mod extensions, so it's possible to end up with annoying files like 105.MOD.mp4
+* Cleanup of the old files is simple, but be careful! `find . -iname '*.mod' -delete`
